@@ -1,0 +1,44 @@
+PODS:
+  - AsyncDisplayKit (2.2):
+    - AsyncDisplayKit/PINRemoteImage (= 2.2)
+  - AsyncDisplayKit/Core (2.2)
+  - AsyncDisplayKit/PINRemoteImage (2.2):
+    - AsyncDisplayKit/Core
+    - PINRemoteImage/iOS (= 3.0.0-beta.8)
+    - PINRemoteImage/PINCache
+  - Gloss (1.2.4)
+  - NMessenger (1.0.80):
+    - AsyncDisplayKit (= 2.2)
+  - PINCache (3.0.1-beta.4):
+    - PINCache/Arc-exception-safe (= 3.0.1-beta.4)
+    - PINCache/Core (= 3.0.1-beta.4)
+  - PINCache/Arc-exception-safe (3.0.1-beta.4):
+    - PINCache/Core
+  - PINCache/Core (3.0.1-beta.4):
+    - PINOperation (= 1.0.3)
+  - PINOperation (1.0.3)
+  - PINRemoteImage/Core (3.0.0-beta.8)
+  - PINRemoteImage/iOS (3.0.0-beta.8):
+    - PINRemoteImage/Core
+  - PINRemoteImage/PINCache (3.0.0-beta.8):
+    - PINCache (= 3.0.1-beta.4)
+    - PINRemoteImage/Core
+  - SwiftAddressBook (0.7.0)
+
+DEPENDENCIES:
+  - Gloss
+  - NMessenger
+  - SwiftAddressBook
+
+SPEC CHECKSUMS:
+  AsyncDisplayKit: 1585f6cd0531ae9b30476f5912f577b73ebcb0e4
+  Gloss: 4e036074610fdb993abcb958ebcd7332588e2333
+  NMessenger: ca6a89073ca40d3868cf45505f6f8318853afd40
+  PINCache: a89c8f609232afac77128557bd12c861844423d7
+  PINOperation: ac23db44796d4a564ecf9b5ea7163510f579b71d
+  PINRemoteImage: c4f9f16932840c597f32e69dd288e10e111a1929
+  SwiftAddressBook: 997503d04aa62a9b23d9655b5d212f6e2fbb436d
+
+PODFILE CHECKSUM: 2828195beeef4c6a83fcc8e20085de3aebb64b36
+
+COCOAPODS: 1.1.1
